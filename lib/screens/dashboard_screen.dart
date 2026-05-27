@@ -106,15 +106,6 @@ class DashboardScreen extends ConsumerWidget {
                     minimumSize: const Size(double.infinity, 50),
                   ),
                 ),
-                const SizedBox(height: 12),
-                OutlinedButton.icon(
-                  onPressed: () => GoRouter.of(context).push('/reports'),
-                  icon: const Icon(Icons.picture_as_pdf),
-                  label: const Text('Ver Reportes'),
-                  style: OutlinedButton.styleFrom(
-                    minimumSize: const Size(double.infinity, 50),
-                  ),
-                ),
               ],
             ),
           ),
